@@ -26,7 +26,6 @@ export const uiReducer = ( state = initialState, action ) => {
 
 
         default:
-            console.log('estoy default')
             return state
     }
 
