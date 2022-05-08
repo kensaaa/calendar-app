@@ -83,7 +83,7 @@ const checkingFinish = () => ({
 })
 
 
-const login = (user) => ({
+export const login = (user) => ({
     type: types.authLogin,
     payload: user
 })

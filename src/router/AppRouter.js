@@ -19,11 +19,9 @@ const AppRouter = () => {
 
 
     useEffect( () => {
-        //no colocar como dependencia startChecking pues esta fuera del componente y nunca cambiara
         dispatch( startChecking() )
     },[dispatch])
 
-    //si el checking esta en true significa que esta cargando
     if(checking){
         return <h5>espere ...</h5>
     }
